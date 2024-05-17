@@ -1,0 +1,65 @@
+body{
+    font-family: comic sans-serif;
+    background-color: #d9d1d1;
+    font-size: 150%;
+    
+}
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px;
+    box-shadow: 0 3px 6px rgba(111, 76, 236, 0.7);
+    transition: transform 0.3s ease;
+    }
+
+img:hover{
+    transform: scale(1.1);
+}
+
+
+main {
+    padding: 20px;
+    text-align:left;
+}
+
+
+h1{
+    color: rgba(213, 11, 11, 0.74);
+    font-family: sans-serif;
+
+}
+
+p{
+    color: blueviolet;
+    text-align:left;
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+table{
+    width: 150
+  }
+  tr,
+  th,
+  td{
+    border-collapse:separate;
+    border:3px solid rgb(3, 58, 19);
+    border-radius: 5px;
+    padding: 7px;
+    
+    }
+
+    .header {
+        /* position:fixed; */
+        top: 0;
+        left: 80%;
+        width: 100%;
+        background-color: var(--bg-nav);
+        box-shadow: 0 0 25px #e11010f0;
+        z-index: 1000;
+      }
+
